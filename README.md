@@ -1,4 +1,4 @@
-# If your kernel edition of OS is higher than 4.9 like debian 9, please use following simple commands
+# If your kernel edition of OS is higher than 4.9 like Debian 9, please use following simple commands
 
 echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 
