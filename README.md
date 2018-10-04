@@ -13,7 +13,7 @@ lsmod | grep bbr  // if it shows tcp_bbr and two numbers, done
 ***
 
 # Remark
-Sometimes BBR is not be able to speed up, network speed may be slower than before, espcially China Mobile network. The reason is still researching.
+Sometimes BBR is not be able to speed up, network speed may be slower than before, espcially China Mobile network.
 
 ***
 # Uninstall
