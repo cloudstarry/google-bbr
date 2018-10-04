@@ -22,7 +22,7 @@ vim /etc/sysctl.conf
 
 #net.core.default_qdisc = fq  
 
-#net.ipv4.tcp_congestion_control = bbr    // using # mask them
+#net.ipv4.tcp_congestion_control = bbr    // using # masks them
 
 sysctl -p
 
