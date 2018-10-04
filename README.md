@@ -1,4 +1,4 @@
-# The script is from Teddysun
+# The install script is from Teddysun
 
 yum -y install wget
 
