@@ -35,7 +35,7 @@ sysctl -p
 reboot  your system
 ***
 
-- Following  has been tested on 64-bit CentOS 7 Minial of openVZ and default tcp port 9000-9999
+- Following script has been tested on 64-bit CentOS 7 Minial of openVZ and default tcp port 9000-9999
 
 wget --no-check-certificate https://raw.githubusercontent.com/cloudstarry/google-bbr/master/bbrvz.sh && bash bbrvz.sh
 
