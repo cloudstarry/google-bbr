@@ -9,7 +9,7 @@ sysctl -p
 reboot your system
 
 # Otherwise, use script from Teddysun or 91Yun. 
-- It has been tested on 64-bit of CentOS 7, Debian 9 and Ubuntu 16 KVM & CentOS 7 XEN_hvm and does not support openVZ
+- Following script has been tested on 64-bit of CentOS 7, Debian 9 and Ubuntu 16 KVM & CentOS 7 XEN_hvm and does not support openVZ
 
 yum -y install wget
 
@@ -35,7 +35,8 @@ sysctl -p
 reboot  your system
 ***
 
-- It has been tested on 64-bit CentOS 7 Minial of openVZ and default tcp port 9000-9999
+- Following script has been tested on 64-bit of CentOS 7, Debian 9 and Ubuntu 16 KVM & CentOS 7 XEN_hvm and does not support openVZ
+- Following  has been tested on 64-bit CentOS 7 Minial of openVZ and default tcp port 9000-9999
 
 wget --no-check-certificate https://raw.githubusercontent.com/cloudstarry/google-bbr/master/bbrvz.sh && bash bbrvz.sh
 
