@@ -8,7 +8,7 @@ chmod +x bbr.sh
 
 ./bbr.sh
 
-lsmod | grep bbr  // if it shows tcp_bbr and two numbers, done
+lsmod | grep bbr    // if it shows tcp_bbr and two numbers, done
 
 ***
 
@@ -22,7 +22,7 @@ vim /etc/sysctl.conf
 
 #net.core.default_qdisc = fq  
 
-#net.ipv4.tcp_congestion_control = bbr // using # mask them
+#net.ipv4.tcp_congestion_control = bbr    // using # mask them
 
 sysctl -p
 
