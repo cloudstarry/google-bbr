@@ -13,4 +13,13 @@ lsmod | grep bbr  // if it shows tcp_bbr and two numbers, done
 ***
 
 # Remark
-Sometimes BBR is not be able to speed up, network speed may slower than before especiall China Mobile network. The reason is still researching.
+Sometimes BBR is not be able to speed up, network speed may be slower than before, espcially China Mobile network. The reason is still researching.
+
+***
+# Uninstall
+
+vim /etc/sysctl.conf
+#net.core.default_qdisc = fq  
+#net.ipv4.tcp_congestion_control = bbr // using # mask them
+sysctl -p
+reboot  your system
