@@ -18,7 +18,7 @@ Sometimes BBR is not be able to speed up, network speed may be slower than befor
 
 # Uninstall
 
-vim /etc/sysctl.conf
+vi /etc/sysctl.conf
 
 #net.core.default_qdisc = fq  
 
