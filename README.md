@@ -6,6 +6,8 @@ echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
 
 sysctl -p
 
+reboot your system
+
 # Otherwise, use script from Teddysun or 91Yun. 
 - It has been tested on 64-bit of CentOS 7, Debian 9 and Ubuntu 16 KVM & CentOS 7 XEN_hvm and does not support openVZ
 
