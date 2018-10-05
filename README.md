@@ -9,7 +9,7 @@ sysctl -p
 reboot your system
 
 # Otherwise, use script from Teddysun or 91Yun. 
-- Following script has been tested on 64-bit of CentOS 7, Debian 9 and Ubuntu 16 KVM & CentOS 7 XEN_hvm and does not support openVZ
+- Following script has been tested on 64-bit CentOS 7, Debian 9 and Ubuntu 16 KVM & CentOS 7 XEN_hvm and does not support openVZ
 
 yum -y install wget
 
